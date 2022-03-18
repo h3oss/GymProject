@@ -20,6 +20,10 @@ a {
     
 }
 
+.menu {
+    background: #f8f8e7;
+}
+
 
 .btn-primary {
   color: #fff;
@@ -46,6 +50,7 @@ html {
   }
 }
 
+
 .logojaguar {
     background-color: #f8f8e7;
     padding-left: 300px;
@@ -68,6 +73,9 @@ bodylogo {
     margin-top: 10px;
 }
 
+.container-fluid {
+    padding:0 !important;
+}
 
 
 .section {
@@ -137,8 +145,9 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;   
+    
     min-width:100%;
+    font-family:Roboto;
     
     
    
