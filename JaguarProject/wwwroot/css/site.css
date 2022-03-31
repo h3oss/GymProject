@@ -258,3 +258,21 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.common-info__block {
+    text-align: center;
+    font-size: 14px;    
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif !important;
+}
+
+.info-main-icon {
+    margin-bottom: 20px;
+    width:30px;
+   
+}
+
+.map {
+    height:100%;
+}
