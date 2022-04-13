@@ -23,6 +23,41 @@ namespace JaguarProject.Controllers
             return View();
         }
 
+        public IActionResult Rasp()
+        {
+            return View();
+        }
+
+        public IActionResult Gym()
+        {
+            return View();
+        }
+
+        public IActionResult CoopTrain()
+        {
+            return View();
+        }
+
+        public IActionResult Massage()
+        {
+            return View();
+        }
+
+        public IActionResult Sauna()
+        {
+            return View();
+        }
+
+        public IActionResult Solarium()
+        {
+            return View();
+        }
+
+        public IActionResult Tennis()
+        {
+            return View();
+        }
+        
         public IActionResult Privacy()
         {
             return View();

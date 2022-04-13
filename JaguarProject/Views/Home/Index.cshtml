@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">        
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">      
     </script>
+
     <style>
         p {
             margin-top: 0;
             margin-bottom: 0;
-        }      
+        }    
+        body {
+            overflow-x:hidden;
+        }
        
     </style>
 </head>
@@ -100,52 +104,64 @@
             </div>
             <div class="row no-gutters" style="margin-left:50px; margin-top:100px;">
 
-                <div class="col-4">
+                <div class="col-4" >
                     <div class="post">
-                        <img src="~/Images/gymm.jpg" alt="">
-                        <div class="posts">
-                            <h2 style="white-space: nowrap;">Тренажерный зал</h2>
-                        </div>
+                        <a href="/Home/Gym">
+                            <img src="~/Images/gymm.jpg" alt="">
+                                <div class="posts">
+                                     <h2 style="white-space: nowrap;">Тренажерный зал</h2>
+                                </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="post">
-                        <img src="~/Images/group_trainn.jpg" alt="">
-                        <div class="posts">
-                            <h2 style="white-space: nowrap; font-size: 28px;">Групповые занятия</h2>
-                        </div>
+                        <a href="/Home/CoopTrain">
+                            <img src="~/Images/group_trainn.jpg" alt="">
+                                <div class="posts">
+                                    <h2 style="white-space: nowrap; font-size: 28px;">Групповые занятия</h2>
+                                </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="post">
-                        <img src="~/Images/saunaa.jpg" alt="">
-                        <div class="posts">
-                            <h2>Сауна</h2>
-                        </div>
+                        <a href="/Home/Sauna">
+                            <img src="~/Images/saunaa.jpg" alt="">
+                                <div class="posts">
+                                    <h2>Сауна</h2>
+                                </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="post">
-                        <img src="~/Images/massagee.jpg" alt="">
-                        <div class="posts">
-                            <h2>Массаж</h2>
-                        </div>
+                        <a href="Home/Massage">
+                            <img src="~/Images/massagee.jpg" alt="">
+                                <div class="posts">
+                                     <h2>Массаж</h2>
+                                </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="post">
-                        <img src="~/Images/solariumm.jpg" alt="">
-                        <div class="posts">
-                            <h2>Солярий</h2>
-                        </div>
+                        <a href="Home/Solarium">
+                            <img src="~/Images/solariumm.jpg" alt="">
+                                <div class="posts">
+                                    <h2>Солярий</h2>
+                                </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="post">
-                        <img src="~/Images/tennis.jpg" alt="">
-                        <div class="posts">
-                            <h2>Теннис</h2>
-                        </div>
+                        <a href="Home/Tennis">
+                            <img src="~/Images/tennis.jpg" alt="">
+                                <div class="posts">
+                                     <h2>Теннис</h2>
+                                </div>
+                        </a>
                     </div>
                 </div>
 
@@ -155,7 +171,7 @@
 
 
 
-            <div class="intro" style="margin-top: 15px;">
+            <div class="intro" style="margin-top: 12px;">
                 <div class="video">
                     <video class="video_media" src="~/Videos/video.mp4" autoplay muted loop></video>
                 </div>
@@ -261,6 +277,11 @@
                         ТРК "Семейный Парк" 4 этаж
                     </div>
                 </div>
+
+                <div style="margin-top: 50px; margin-left: calc(50% - 50vw);">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A61bcb9c6bee4bd6163ddd8e62222556e8572bc38598438ed73b33c52af9efc7b&amp;width=99vw&amp;height=400&amp;lang=ru_RU&amp;scroll=true" style="margin-top: 150px"></script>
+                </div>
+
 
 
             </div>

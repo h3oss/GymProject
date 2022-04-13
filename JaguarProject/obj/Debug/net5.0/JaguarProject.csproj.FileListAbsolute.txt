@@ -37,3 +37,10 @@ C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\JaguarP
 C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\JaguarProject.genruntimeconfig.cache
 C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\JaguarProject.csproj.CopyComplete
 C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\JaguarProject.csproj.AssemblyReference.cache
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Gym.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Rasp.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\CoopTrain.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Massage.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Sauna.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Solarium.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Tennis.cshtml.g.cs
