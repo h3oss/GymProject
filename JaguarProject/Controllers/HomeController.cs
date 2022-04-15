@@ -33,6 +33,15 @@ namespace JaguarProject.Controllers
             return View();
         }
 
+        public IActionResult Akcii()
+        {
+            return View();
+        }
+        public IActionResult Team()
+        {
+            return View();
+        }
+
         public IActionResult CoopTrain()
         {
             return View();

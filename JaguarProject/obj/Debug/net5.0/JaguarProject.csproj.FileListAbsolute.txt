@@ -44,3 +44,5 @@ C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\V
 C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Sauna.cshtml.g.cs
 C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Solarium.cshtml.g.cs
 C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Tennis.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Akcii.cshtml.g.cs
+C:\Users\vladn\source\repos\JaguarProject\JaguarProject\obj\Debug\net5.0\Razor\Views\Home\Team.cshtml.g.cs

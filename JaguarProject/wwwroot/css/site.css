@@ -323,7 +323,7 @@ body {
 }
 .column {
     float: left;
-    width: 50%;
+    width: 33.33%;
 }
 
 
@@ -331,4 +331,25 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+.tarif {
+    width: 400px;
+    height: 600px;
+    margin-left: 100px;
+}
+
+.scale {
+    transition: 1s;
+}
+.scale :hover {
+    transform: scale(1.5); 
+}
+
+.leftcol{
+    float:left;
+    width:auto;
+}
+.rightcol {
+    margin-left:auto;
 }
