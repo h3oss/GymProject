@@ -47,12 +47,21 @@ namespace JaguarProject.Controllers
             return View();
         }
 
+        public IActionResult News()
+        {
+            return View();
+        }
+
         public IActionResult Massage()
         {
             return View();
         }
 
         public IActionResult Sauna()
+        {
+            return View();
+        }
+        public IActionResult Contacts()
         {
             return View();
         }
