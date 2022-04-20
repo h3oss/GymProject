@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    </script>
     <style>
         p {
             margin-top: 0;
             margin-bottom: 0;
+        }
+
+        html, body {
+            font-family: Roboto;
         }
     </style>
 </head>
@@ -71,9 +79,21 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted" style="margin-top:250px">
-        <div class="container">
-            &copy; 2022 - JaguarProject - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer text-muted" style="margin-top: 250px; background-color: #4c261b ">
+        <div style="align-content:center;">
+            <div style="display: flex; display: inline-block; margin-left:100px;">
+                     <a href="https://vk.com/mfitness_mgn"><img style=" width:30px;" src="~/Images/vk.png" alt="" /></a>                          
+            </div>
+            <div style="display: flex; display: inline-block; margin-left: 400px;">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/Images/logoNo.png" width="180" height="100" style="align-content:center" />
+                </a>
+            </div>
+            <div style="display: flex; display: inline-block; margin-left: 300px; ">
+                <div>
+                    <p style="bottom:-10px; color:white">г. Магнитогорск, пр.Карла Маркса 172</p>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
