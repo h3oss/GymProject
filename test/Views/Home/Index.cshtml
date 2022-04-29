@@ -1,0 +1,303 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+
+    </script>
+
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+
+<body style="padding:0 !important; ">
+    <div class="container bg-white">
+        <div id="demo" class="carousel slide" data-ride="carousel" style="width: 100%; margin-left:20px ">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/Images/1.jpg" alt="Jaguar1">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Images/2.jpg" alt="Jaguar2">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Images/3.jpg" alt="Jaguar3">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Images/4.jpg" alt="Jaguar4">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Images/5.jpg" alt="Jaguar5">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+        <div class="container" style="margin-left: 20px">
+            <div class="row" style="margin-top: 50px; width: 100%; margin-bottom: 50px;">
+                <div class="col-md-12">
+                    <div class="row" style="margin-left:0px">
+                        <div class="col-md-6 col-sm-6">
+                            <h3 class="underline"> О фитнес центре </h3>
+                            <p>
+                                Совершенное тело не просто красиво, оно вызывает чувство гордости и в настоящее время стало одним из показателей успешности.
+                                <br>
+                                <br>
+                                С абонементом фитнес-центра «Ягуар» занятия спортом превратятся в удовольствие. Вы сами выбираете интенсивность тренировок, можете ходить в зал хоть каждый день.
+                                Выбор спортивного направления тоже зависит только от вашего настроения: танцы, степ, аэробика, пилатес, йога или что-то другое.
+                                <br>
+                                <br>
+                                Не хотите посещать групповые занятия? В вашем распоряжении современный тренажерный зал. Команда квалифицированных тренеров поможет подобрать индивидуальную программу тренировок и питания.
+                                <br>
+                                <br>
+                                Попробовать все или остановиться на чем-то одном? Большой выбор абонементов и клубных карт дает возможность с выгодой для кошелька ни в чем себя не ограничивать.
+                                <br>
+                                <br>
+                                В фитнес-центре «Ягуар» легко скорректировать фигуру, расстаться со стрессом и зарядиться позитивом. Приходите и занимайтесь в любое удобное время!
+
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <img alt="logo.png" src="~/Images/circleLogo.png" height="450" width="450" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #f7f8e8; width: 100vw; margin-left: calc(50% - 50vw); margin-top:30px;">
+        <div class="container" style="margin-bottom:-10px;">
+            <div style="margin-top:-30px;">
+                <h3 class="underline" style="margin-bottom:-70px; margin-top:-10px; padding-top:30px"> Предоставляемые услуги </h3>
+            </div>
+            <div class="row no-gutters" style="margin-left:50px; margin-top:100px;">
+
+                <div class="col-4">
+                    <div class="post">
+                        <a href="/Home/Gym">
+                            <img src="~/Images/gymm.jpg" alt="">
+                            <div class="posts">
+                                <h2 style="white-space: nowrap;">Тренажерный зал</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="post">
+                        <a href="/Home/CoopTrain">
+                            <img src="~/Images/group_trainn.jpg" alt="">
+                            <div class="posts">
+                                <h2 style="white-space: nowrap; font-size: 28px;">Групповые занятия</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="post">
+                        <a href="/Home/Sauna">
+                            <img src="~/Images/saunaa.jpg" alt="">
+                            <div class="posts">
+                                <h2>Сауна</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="post">
+                        <a href="Home/Massage">
+                            <img src="~/Images/massagee.jpg" alt="">
+                            <div class="posts">
+                                <h2>Массаж</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="post">
+                        <a href="Home/Solarium">
+                            <img src="~/Images/solariumm.jpg" alt="">
+                            <div class="posts">
+                                <h2>Солярий</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="post">
+                        <a href="Home/Tennis">
+                            <img src="~/Images/tennis.jpg" alt="">
+                            <div class="posts">
+                                <h2>Теннис</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="intro" style="margin-top: 12px;">
+        <div class="video">
+            <video class="video_media" src="~/Videos/video.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+
+
+
+    <div style="background-color: #f7f8e8; width: 100vw; margin-left: calc(50% - 50vw); margin-top:30px;">
+        <div class="container" style="margin-bottom:-10px;">
+            <div style="margin-top:-30px;">
+                <h3 class="underline" style="margin-bottom:-70px; margin-top:-10px; padding-top:30px"> Тренерский состав </h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="grid-item">
+                    <a href="Home/Team#1">
+                    <div class="grid-item__inner">
+                        <img src="~/Images/LilyaSochnevaa.jpg" class="grid-item__img" style="height:350px;" />
+                        <div class="grid-item__title">
+                            <span>Лилия Сочнева</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="Home/Team#2">
+                        <div class="grid-item__inner">
+                            <img src="~/Images/EvgenyaShal.jpg" class="grid-item__img" style="height:350px;" />
+                            <div class="grid-item__title">
+                                <span>Евгения Шаль</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="Home/Team#3">
+                        <div class="grid-item__inner">
+                            <img src="~/Images/RenataUsupova.jpg" class="grid-item__img" style="height:350px;" />
+                            <div class="grid-item__title">
+                                <span>Рената Юсупова</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="Home/Team#4">
+                        <div class="grid-item__inner">
+                            <img src="~/Images/SvetlanaNasirova.jpg" class="grid-item__img" style="height:350px;" />
+                            <div class="grid-item__title">
+                                <span>Светлана Насырова</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="Home/Team#5">
+                        <div class="grid-item__inner">
+                            <img src="~/Images/NikolayIvanov.jpg" class="grid-item__img" style="height:350px;" />
+                            <div class="grid-item__title">
+                                <span>Николай Иванов</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="Home/Team#6">
+                        <div class="grid-item__inner">
+                            <img src="~/Images/NikitaKaramalak.jpg" class="grid-item__img" style="height:350px;" />
+                            <div class="grid-item__title">
+                                <span>Никита Карамалак</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item">
+                    <a href="Home/Team#7">
+                        <div class="grid-item__inner">
+                            <img src="~/Images/IvanBaturin.jpg" class="grid-item__img" style="height:350px;" />
+                            <div class="grid-item__title">
+                                <span>Иван Батурин</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="row" style="margin-left:50px; margin-top:50px; ">
+            <div class="col-md-3 col-md-offset-3 common-info__block">
+                <div>
+                <img src="~/Images/4.png" alt="" class="info-main-icon">
+                <br>
+                Мы работаем для Вас:
+                <br>
+                будние дни: 07:00 до 22:00<br>
+                суббота: 08:00 до 20:00<br>
+                воскресенье: 10:00 до 20:00
+                </div>
+            </div>
+            <div class="col-md-3 common-info__block">
+                <img src="~/Images/2.png" alt="" class="info-main-icon" ><br>
+                m-fit69@mail.ru
+            </div>
+            <div class="col-md-3 col-md-offset-3 common-info__block">
+                <img src="~/Images/3.png" alt="" class="info-main-icon" style="height:30px" ><br>
+                8 (3519) 45-69-77
+            </div>
+            <div class="col-md-3 common-info__block">
+                <img src="~/Images/1.png" alt="" class="info-main-icon" ><br>
+                г. Магнитогорск, <br>
+                пр.Карла Маркса 172 <br>
+                ТРК "Семейный Парк" 4 этаж
+            </div>
+        </div>
+
+        <div style="width: 100vw; margin-left: calc(50% - 50vw); margin-top: 30px;">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A61bcb9c6bee4bd6163ddd8e62222556e8572bc38598438ed73b33c52af9efc7b&amp;width=99vw&amp;height=400&amp;lang=ru_RU&amp;scroll=true" style="margin-top: 150px"></script>
+        </div>
+    </div>
+</body>

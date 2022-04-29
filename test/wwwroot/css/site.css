@@ -1,0 +1,226 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.underline {
+    border-bottom: 4px solid #4c261b !important;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+    .gallery-grid, .gallery-grid * {
+        box-sizing: border-box;
+    }
+
+.grid-item {
+    margin: 15px 0;
+    padding: 0 15px;
+    width: 33.33%;
+}
+
+.grid-item__inner {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: 350px;
+}
+
+    .grid-item__inner:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(139,69,19,.8);
+        opacity: 0;
+        transition: all .4s ease;
+        content: '';
+        z-index: 2;
+    }
+
+    .grid-item__inner:hover:before {
+        opacity: 1;
+    }
+
+    .grid-item__inner:hover .grid-item__img {
+        transform: scale(1.05);
+    }
+
+.grid-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .4s ease;
+}
+
+.grid-item__title {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 24px;
+    color: #fff;
+    overflow: hidden;
+    z-index: 3;
+}
+
+    .grid-item__title > span {
+        display: block;
+        transform: translateY(30px);
+        transition: transform .3s ease;
+    }
+
+.grid-item__inner:hover .grid-item__title > span {
+    transform: translateY(0);
+}
+
+
+.post {
+    width: 288px;
+    height: 288px;
+    position: relative;
+}
+
+    .post img {
+        display: block;
+        width: 288px;
+        height: 233px;
+    }
+
+.posts {
+    width: 0px;
+    height: 233px;
+    background: rgb(139,69,19,.8);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    opacity: 0.8;
+    transition: 0.7s ease;
+}
+
+    .posts h2 {
+        color: white;
+        font-size: 30px;
+        border: 5px solid white;
+        padding: 5px 5px;
+    }
+
+.post:hover .posts {
+    width: 288px;
+}
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.info {
+    background-color: #4c261b;
+    margin-left: 450px;
+}
+
+.adress {
+    color: gray;
+    background-color: #f8f8e7;
+    font-size: 12px;
+    bottom: 2px;
+}
+
+.logojaguar {
+    background-color: #f8f8e7;
+    padding-left: 300px;
+    padding-right: 50px;
+    display: flex;
+}
+
+.info-main-icon {
+    margin-bottom: 20px;
+    margin-left:1px;
+    height:35px;
+}
+
+.common-info__block {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
