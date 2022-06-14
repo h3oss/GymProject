@@ -45,3 +45,9 @@ C:\Users\vladn\source\repos\Test\test\obj\Debug\netcoreapp3.1\Razor\Views\Home\S
 C:\Users\vladn\source\repos\Test\test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Solarium.cshtml.g.cs
 C:\Users\vladn\source\repos\Test\test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Team.cshtml.g.cs
 C:\Users\vladn\source\repos\Test\test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Tennis.cshtml.g.cs
+C:\Users\vladn\source\repos\Test\test\bin\Debug\netcoreapp3.1\test.StaticWebAssets.xml
+C:\Users\vladn\source\repos\Test\test\obj\Debug\netcoreapp3.1\staticwebassets\test.StaticWebAssets.xml
+C:\Users\vladn\source\repos\Test\test\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\vladn\source\repos\Test\test\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\vladn\source\repos\Test\test\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vladn\source\repos\Test\test\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll

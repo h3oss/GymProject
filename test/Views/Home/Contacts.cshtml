@@ -1,4 +1,5 @@
-﻿@{
+﻿@model test.Models.People
+@{
     ViewData["Title"] = "Contacts";
 }
 
@@ -58,22 +59,44 @@
                     <br>
 
                     Телефон: (3519) 45-69-77
-                    <br>                    
+                    <br>
                     Рабочий e-mail: m-fit69@mail.ru
-                    <br>                    
+                    <br>
                     Группа Вконтакте: https://vk.com/mfitness_mgn
                     <br>
                     <br>
 
                     ФЦ «ЯгуаR» ждет тебя!
+
+
+                    <br>
+                    <br>
+
+                    <h3>Оставить заявку</h3>
+                  
+
+
                 </p>
-               
+                    <form asp-controller="Home" asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="col-form-label">Имя</label>
+                        <input asp-for="Name" class="form-control" style="width: 300px"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Phone" class="col-form-label">Телефон </label>
+                        <input asp-for="Phone" class="form-control" style="width: 300px" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-4">
+                        <input type="submit" value="Создать" class="btn btn-outline-success btn-sm" style="background: #C1172C; color: white; margin-left:85px" /> &emsp;
+
+                    </div>
+                </form>
+
             </div>
-            <div class="col">
-                <p id="1">
-                    <img width="700" src="~/Images/1.jpg" alt="" />
-                </p>
-            </div>
+            
         </div>
     </div>
         <div class="w-100"></div>
